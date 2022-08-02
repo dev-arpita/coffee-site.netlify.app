@@ -1,0 +1,76 @@
+
+body {
+text-align: center;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 20px;
+}
+
+::selection {
+    color: #555553;
+}
+.container {
+    background: url(/img/coffee-love.jpg);
+    background-size: cover;
+    color:#dceaf2 ;
+    width: 1200px;
+    margin: 0 auto;
+    height: 100vh;
+    cursor: pointer;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 40px;
+}
+
+
+.menu-list {
+    display: flex;
+}
+
+.list {
+    padding: 10px 20px;
+    list-style-type: none;
+    margin-top: 20px;
+    color: whitesmoke;
+    text-shadow: 2ps solid #2a380a;
+}
+
+
+.content {
+    margin-top: 100px;
+}
+
+p{
+    margin: 10px 20px;
+    padding: 0 50px;
+}
+.btn {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: #dceaf2;
+    color: rgb(66, 63, 63);
+    margin: 30px 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
